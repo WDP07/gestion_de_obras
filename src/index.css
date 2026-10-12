@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --amarillo: #FFC400;
+  --amarillo-suave: #FFF3C4;
+  --azul: #14325C;
+  --azul-medio: #2A5189;
+  --azul-oscuro: #0d2342;
+  --blanco: #FFFFFF;
+  --hormigon: #E9ECF0;
+  --texto: #1B2A41;
+  --whatsapp: #1FA855;
+  --whatsapp-hover: #198745;
+  --facebook: #1877F2;
+  --fuente: 'Archivo Narrow', 'Archivo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--blanco);
+  color: var(--texto);
+  font-family: var(--fuente);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Neo-Brutalist Classes */
+.neo-border {
+  border: 3.5px solid var(--azul);
+}
+
+.neo-border-sm {
+  border: 2px solid var(--azul);
+}
+
+.neo-border-thick {
+  border: 4px solid var(--azul);
+}
+
+.neo-shadow {
+  box-shadow: 6px 6px 0 var(--azul);
+}
+
+.neo-shadow-sm {
+  box-shadow: 3px 3px 0 var(--azul);
+}
+
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0 var(--azul);
+}
+
+.neo-btn-wa {
+  background-color: var(--whatsapp);
+  color: #ffffff;
+  border: 3.5px solid var(--azul);
+  box-shadow: 0 6px 0 var(--azul);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.neo-btn-wa:hover {
+  background-color: var(--whatsapp-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 var(--azul);
+}
+
+.neo-btn-wa:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--azul);
+}
+
+.neo-btn-yellow {
+  background-color: var(--amarillo);
+  color: var(--azul);
+  border: 3.5px solid var(--azul);
+  box-shadow: 0 6px 0 var(--azul);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.neo-btn-yellow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 var(--azul);
+}
+
+.neo-btn-yellow:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--azul);
+}
+
+.neo-btn-white {
+  background-color: var(--blanco);
+  color: var(--azul);
+  border: 3.5px solid var(--azul);
+  box-shadow: 0 6px 0 var(--azul);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.neo-btn-white:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 var(--azul);
+}
+
+.neo-btn-white:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--azul);
+}
+
+/* Franja de advertencia e industria */
+.franja-obra {
+  height: 28px;
+  background: repeating-linear-gradient(-45deg, #FFC400 0 24px, #14325C 24px 48px);
+  border-bottom: 3.5px solid var(--azul);
+  border-top: 3.5px solid var(--azul);
+}

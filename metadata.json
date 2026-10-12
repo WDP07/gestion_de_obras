@@ -1,0 +1,6 @@
+{
+  "name": "Gestión de Obras",
+  "description": "Tus obras bajo control, desde el celular. Control de gastos, cobros, jornales y bitácora de obra para constructores y contratistas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
